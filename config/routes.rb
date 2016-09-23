@@ -1,15 +1,17 @@
 Rails.application.routes.draw do
   #resources :todo_items
+  root to: "todo_lists#index"
+
   resources :todo_lists do 
     # whether there is a todo_list_id here or not does not matter. It can be done without. 
-    resources :todo_list_id do
+    #resources :todo_list_id do
       resources :todo_items
-    end
   end
+#end
   resources :profiles
   resources :users
 
-  root to: "todo_lists#index"
+  
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
