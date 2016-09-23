@@ -2,8 +2,8 @@ Rails.application.routes.draw do
   #resources :todo_items
   root to: "todo_lists#index"
 
+  #resources :sessions, only: [:new, :create, :destroy]
   resources :todo_lists do 
-    # whether there is a todo_list_id here or not does not matter. It can be done without. 
     #resources :todo_list_id do
       resources :todo_items
   end
