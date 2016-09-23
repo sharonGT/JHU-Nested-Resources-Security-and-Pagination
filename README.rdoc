@@ -1,28 +1,11 @@
-== README
+The overall goal of this assignment is to assess ability to implement: 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Nested resources
 
-Things you may want to cover:
+* Authentication
 
-* Ruby version
+* Authorization
 
-* System dependencies
+* Pagination
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+The functional goal of this assignment is to implement a web application to manage TodoItems
